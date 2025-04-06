@@ -11,6 +11,8 @@ app.use(
   })
 );
 
+let LINE_ACCESS_TOKEN = "qFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; // Replace with your LINE access token
+
 // Test endpoint
 app.get('/', (req, res) => {
   res.send('Hello, World!');
